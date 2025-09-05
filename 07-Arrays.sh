@@ -2,8 +2,8 @@
 
 MOVIES=("SALAAR" "KALKI2898AD" "SAAHO" "RAJASAAB")
 
-echo "${MOVIES[0]}"
-echo "${MOVIES[3]}"
-echo "${MOVIES[5]}"
+echo "First movie is :: ${MOVIES[0]}"
+echo "Fourth movie is :: ${MOVIES[3]}"
+echo "Fifth movie is ::${MOVIES[5]}"
 
-echo "All movies :: ${MOVIES[@]}"
+echo "All movies are :: ${MOVIES[@]}"
