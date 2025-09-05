@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Person1=Trump
+Person1=Trump #there should be no gap before and after =
 Person2=Musk
 
 echo "$Person1 : Hi $Person2! How are you?"
