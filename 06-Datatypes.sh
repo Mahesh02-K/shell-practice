@@ -9,7 +9,7 @@ echo "Script executed at :: $Timestamp"
 Sum=$(($N1+$N2))
 echo "sum of $N1 and $N2 is :: $Sum"
 
-# this is comment
+# below script is taken from trainer
 # NUMBER1=100
 # NUMBER2=200
 
