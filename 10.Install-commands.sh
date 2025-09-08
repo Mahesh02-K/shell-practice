@@ -11,13 +11,12 @@ else
     echo "You are running with root access"
 fi
 
-dnf list installed nginx
-
+dnf list installed nginx1.24
 #check if it's already installed $? is 0, then if not installed $? not 0 then expression is true
 if [ $? -ne 0 ]
 then 
     echo "nginx is not installed ... Going to install it"
-    dnf install nginx -y
+    dnf install nginx1.24 -y
     if [ $? -eq 0 ]
     then
         echo "Installing nginx is ... SUCCESS"
