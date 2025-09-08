@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Number=$1
+Number=$1 #pass the input dynamically like arguments
 
 # -lt means less than
 # -eq means equal to
