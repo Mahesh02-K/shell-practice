@@ -28,6 +28,7 @@ VERIFY(){
     else
         echo -e "$2 is .. $R FAILURE $N" | tee -a $LOG_FILE
         exit 1
+    fi
 }
 
 echo "Script started executing at : $(date)"
